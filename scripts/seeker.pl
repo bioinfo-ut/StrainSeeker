@@ -391,9 +391,6 @@ sub printHelp {
 	-i, none\t - Input file (can be multiple, each with own flag)
 	-o, --output\t - Output file name (default $projectname)
 	-d, --dir\t - Path to database directory
-	-m, --min\t - Min percentage found in node to continue (default $s_lim)
-	-p, --pval\t - P-value cutoff to in node to continue (default $pval_limit)
-	-k, --mintot\t - Min number of k-mers in node since build (default $min_total_kmers)
 	-verbose\t - Print out more of the working process\n";
 	return "";
 }
