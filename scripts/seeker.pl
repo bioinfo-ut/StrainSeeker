@@ -35,7 +35,7 @@ my $seekerTemp = "strainseekertemp".$suffix;
 my $gc_seekerTemp = "gc_seekerTemp".$suffix;
 # Constants
 my $s_lim = 0.025; #min % in node or strain to consider
-my $pval_limit = 0.05/500; # P-value cutoff divided by average number of comparisons. If OE pval is larger, then OE = 1.
+my $pval_limit = 0.05/5000; # P-value cutoff divided by average number of comparisons. If OE pval is larger, then OE = 1.
 my $min_total_kmers = 50; # Minimum number of k-mers in nodes. If subtree is being analyzed, jump over these nodes
 my $version;
 my $verbose = 0;
@@ -49,12 +49,12 @@ GetOptions(
     'version' => \$version,
     'o=s' => \$projectname,
     'output=s' => \$projectname,
-    'm=f' => \$s_lim,
-    'min=f' => \$s_lim,
-    'p=f' => \$pval_limit,
-    'pval=f' => \$pval_limit,
-    'k=i' => \$min_total_kmers,
-    'mintot=i' => \$min_total_kmers,
+    #'m=f' => \$s_lim,
+    #'min=f' => \$s_lim,
+    #'p=f' => \$pval_limit,
+    #'pval=f' => \$pval_limit,
+    #'k=i' => \$min_total_kmers,
+    #'mintot=i' => \$min_total_kmers,
     'verbose' => \$verbose
      ) or die printHelp()."\n";
 
