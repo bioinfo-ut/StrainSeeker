@@ -8,4 +8,4 @@ StrainSeeker requires both Perl and R to run on a UNIX server. For detailed inst
 
 Published article in PeerJ: https://peerj.com/articles/3353/
 
-StrainSeeker is licensed under CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0/) 
+StrainSeeker is licensed under the BSD 3-Clause license (https://opensource.org/licenses/BSD-3-Clause) 
